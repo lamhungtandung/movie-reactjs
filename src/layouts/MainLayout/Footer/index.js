@@ -1,0 +1,90 @@
+import React from 'react'
+import useStyles from './style'
+export default function Footer() {
+  const classes = useStyles()
+  return (
+    <div className={classes.footer}>
+      <div className={`${classes.footer__up} row`}>
+        <div className="col-6 col-md-4">
+          <div className={classes.tix__text}>
+            <div className="d-none d-lg-block d-xl-block">
+              <p>APP</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/">FAQ</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/">Brand Guidelines</a>
+            </div>
+            <div className="row">
+              <a className="col-6 col-lg-12" target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/">Thỏa thuận sử dụng</a>
+              <a className="col-6 col-lg-12" target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/">Chính sách bảo mật</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-6 col-md-4 footer__company d-none d-lg-block d-xl-block">
+          <p>Đối tác phát triển</p>
+          <div>
+            <div className={classes.company__logo}>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/cgv.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/bhd.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/galaxycine.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/cinestar.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/lotte.png" alt="" className={classes.logo} /></a>
+            </div>
+            <div className={classes.company__logo}>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/megags.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/bt.jpg" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/dongdacinema.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/TOUCH.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/cnx.jpg" alt="" className={classes.logo} /></a>
+            </div>
+            <div className={classes.company__logo}>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/STARLIGHT.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/dcine.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/zalopay_icon.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/payoo.jpg" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/vcb.png" alt="" className={classes.logo} /></a>
+            </div>
+            <div className={classes.company__logo}>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/AGRIBANK.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/VIETTINBANK.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/IVB.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/123go.png" alt="" className={classes.logo} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img src="/img/logo-connect/laban.png" alt="" className={classes.logo} /></a>
+            </div>
+          </div>
+        </div>
+        <div className="col-6 col-md-4 d-flex text-center">
+          <div className={`${classes.social__width} d-none d-lg-block d-xl-block`}>
+            <p className="pb-2">MOBIL APP</p>
+            <div className="footer__mobile d-flex justify-content-around">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img className={classes.logo} src="/img/mobile-system/apple-logo.png" alt="" /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img className={classes.logo} src="/img/mobile-system/android-logo.png" alt="" /></a>
+            </div>
+          </div>
+          <div className={classes.social__width}>
+            <p className="d-none d-lg-block d-xl-block pb-2">SOCIAL APP</p>
+            <div className={classes.footer__social}>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img className={classes.logo} src="/img/media/facebook-logo.png" alt="" /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.cgv.vn/"><img className={classes.logo} src="/img/media/zalo-logo.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={`${classes.footer__down} container`}>
+        <div className="row">
+          <div className="col-12 col-md-1 p-1 text-center">
+            <img src="https://images.fanart.tv/fanart/from-hell-4f7df9593aeaf.png" alt="company" className={classes.logoCompany} />
+          </div>
+          <div className={`col-12 col-md-9 p-1 text-center text-lg-left`}>
+            <span>FAKE BOOK MOVIES</span> <br></br>
+            <span>Địa chỉ: Đường số 13, Phường 666, Quận 999, Tp. The Hell, Việt Nam.</span>
+            <span>ngày 22 tháng 11 năm 2022</span> <br></br>
+            <span>Số Điện Thoại (Hotline): 1900 545 436</span>
+            <p>Email: <span className="d-inline">support@thehell666.vn</span></p>
+          </div>
+          <div className="col-12 col-md-2 p-1 text-center" style={{ position: "static" }}>
+            <img src="https://image.shutterstock.com/image-vector/check-mark-icon-logo-vector-260nw-1134350891.jpg" alt="gvm" className={classes.gvm} />
+          </div>
+        </div >
+      </div >
+    </div >
+  )
+}
