@@ -1,4 +1,3 @@
-
 // get list seat
 export const GET_LISTSEAT_REQUEST = "GET_LISTSEAT_REQUEST"
 export const GET_LISTSEAT_SUCCESS = "GET_LISTSEAT_SUCCESS"
